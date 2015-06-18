@@ -1,0 +1,7 @@
+
+js/app.js
+----------------
+js/lib/jquery.js
+js/app/hello-view.js
+js/app/application-controller.js
+js/app.js

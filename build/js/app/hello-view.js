@@ -1,0 +1,1 @@
+define(["jquery"],function(e){"use strict";var t=function(n,r){var i="<h1>Hello "+r.place+"</h1>";e("#"+n).html(i)};return{render:t}});

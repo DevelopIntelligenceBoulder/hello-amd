@@ -1,0 +1,1 @@
+define(["jquery","app/hello-view"],function(e,t){"use strict";var n="app",r=function(r){t.render(n,r)};e(function(){var e={place:"World"};r(e)})});
