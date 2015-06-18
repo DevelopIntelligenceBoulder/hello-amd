@@ -1,6 +1,6 @@
 {
   "name": "hello-amd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hello World in AMD (i.e. Asynchronous Module Definition) using RequireJS",
   "scripts": {
     "start": "node server.js",
@@ -17,6 +17,7 @@
     "express": "^4.12.4"
   },
   "dependencies": {
+    "requirejs": "^2.1.18",
     "jquery": "^2.1.4"
   }
 }
