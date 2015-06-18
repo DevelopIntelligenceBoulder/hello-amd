@@ -1,0 +1,22 @@
+{
+  "name": "hello-amd",
+  "version": "0.0.1",
+  "description": "Hello World in AMD (i.e. Asynchronous Module Definition) using RequireJS",
+  "scripts": {
+    "start": "node server.js",
+    "prestart": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevelopIntelligenceBoulder/hello-amd.git"
+  },
+  "author": "Kamren Zorgdrager <kamrenz@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/DevelopIntelligenceBoulder/hello-amd",
+  "devDependencies": {
+    "express": "^4.12.4"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
