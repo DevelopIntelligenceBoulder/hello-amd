@@ -14,7 +14,7 @@ requirejs.config({
 });
 
 /**
- * Only call to requirejs bootstraps the initial module and depenedency tree.
+ * Only call to requirejs bootstraps the initial module and dependency tree.
  *   i.e. the Application Controller
  */
 requirejs(["app/application-controller"]);

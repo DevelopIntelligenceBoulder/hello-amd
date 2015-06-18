@@ -4,7 +4,7 @@ A simple example of writing Hello World utilizing AMD (i.e. Asynchronous Module 
 ## What is this?
 This example shows how to utilize AMD and requireJS to modularize your JavaScript code base. RequireJS is a module loader that simplifies JavaScript dependency management. This example also shows how to utilize the r.js build tool from RequireJS to output the application JavaScript into 1 minified and concatenated file.
 
-## DO this first
+## Do this first
 Before looking at AMD and RequireJS take a look at how to achieve this in [Plain HTML and JavaScript](https://github.com/DevelopIntelligenceBoulder/hello-plain-old-javascript).
 
 ## Utilizing RequireJS
