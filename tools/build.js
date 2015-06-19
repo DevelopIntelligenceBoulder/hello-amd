@@ -1,4 +1,4 @@
-({
+{
     //The directory holding the application files before building
     "appDir": "../src",
     //The location of RequireJS
@@ -21,4 +21,4 @@
             "name": "app"
         }
     ]
-})
+}
