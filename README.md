@@ -29,13 +29,13 @@ The app.js is not an AMD module. Rather it contains the configuration for Requir
 ## Utilizing the r.js Build Tool
 While asynchronously loading simplifies development and allows for separation of modules, the Ajax calls can slow down the application. The r.js build tool minifies and concatenates all of the application JavaScript files into 1 JavaScript. 
 
-### Within tools/build.js
-The configuration for the r.js build tool. This is syntactically written as an object literal. The build.js file reuses the RequireJS configuration found within js/app.js. It also contains the location of the application source and the location the built application should be placed into. 
+### Within tools/build.json
+The configuration for the r.js build tool. This is syntactically written as an object literal. The build.json file reuses the RequireJS configuration found within js/app.js. It also contains the location of the application source and the location the built application should be placed into. 
 
-The build.js allows the application to be built out into modules. This is a simple application so it will only have 1 application module `app` in which all of the minified and concatenated JavaScript will be placed. This is the only file RequireJS will utilize when the application loads (i.e. no more Ajax calls needed).
+The build.json allows the application to be built out into modules. This is a simple application so it will only have 1 application module `app` in which all of the minified and concatenated JavaScript will be placed. This is the only file RequireJS will utilize when the application loads (i.e. no more Ajax calls needed).
 
 ### Within tools/r.js
-The build tool run via command line `node r.js -o build.js`. Make sure to run this command from within the `tools` folder.
+The build tool run via command line `node r.js -o build.json`. Make sure to run this command from within the `tools` folder.
 
 ## Instructions to run plain RequireJS application
 1. Install [NodeJS](https://nodejs.org/)
