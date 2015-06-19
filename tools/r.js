@@ -27869,8 +27869,8 @@ define('build', function (require) {
         return prim().start(function () {
             if (!args || lang.isArray(args)) {
                 if (!args || args.length < 1) {
-                    logger.error("build.json buildProfile.js\n" +
-                          "where buildProfile.js is the name of the build file (see example.build.json for hints on how to make a build file).");
+                    logger.error("build.js buildProfile.js\n" +
+                          "where buildProfile.js is the name of the build file (see example.build.js for hints on how to make a build file).");
                     return undefined;
                 }
 
@@ -28267,7 +28267,7 @@ define('build', function (require) {
                     config._buildSourceMap = outOrigSourceMap;
                     config.modules[0]._buildText = optimize.js((config.modules[0].name ||
                                                                 config.modules[0].include[0] ||
-                                                                fileName) + '.build.json',
+                                                                fileName) + '.build.js',
                                                                config.modules[0]._buildText,
                                                                null,
                                                                config);
@@ -29469,7 +29469,7 @@ define('build', function (require) {
             if (config.generateSourceMaps) {
                 sourceMapBase = config.dir || config.baseUrl;
                 fileForSourceMap = module._buildPath === 'FUNCTION' ?
-                                   (module.name || module.include[0] || 'FUNCTION') + '.build.json' :
+                                   (module.name || module.include[0] || 'FUNCTION') + '.build.js' :
                                    module._buildPath.replace(sourceMapBase, '');
                 sourceMapGenerator = new SourceMapGenerator.SourceMapGenerator({
                     file: fileForSourceMap
@@ -29899,8 +29899,8 @@ define('build', function (require) {
  */
 
 /*
- * Create a build.json file that has the build options you want and pass that
- * build file to this file to do the build. See example.build.json for more information.
+ * Create a build.js file that has the build options you want and pass that
+ * build file to this file to do the build. See example.build.js for more information.
  */
 
 /*jslint strict: false, nomen: false */

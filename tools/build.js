@@ -1,13 +1,13 @@
-{
+({
     //The directory holding the application files before building
-    "appDir": "../src",
+    appDir: '../src',
     //The location of RequireJS
-    "baseUrl": "js/lib",
+    baseUrl: 'js/lib',
     //The directory holding the application files after running the r.js build
-    "dir": "../build",
+    dir: '../build',
 
     //Loads the already configured RequireJS application file
-    "mainConfigFile": "../src/js/app.js",
+    mainConfigFile: '../src/js/app.js',
 
     /**
      * Builds all the files into separate modules. This creates minifies
@@ -15,10 +15,10 @@
      *   the controller and view into the js/app.js file.
      *   - All comments are removed with the exception of JavaScript libraries
      */
-    "modules": [
+    modules: [
         {
             //This trivial application only has 1 module
-            "name": "app"
+            name: 'app'
         }
     ]
-}
+})
