@@ -35,7 +35,7 @@ The configuration for the r.js build tool. This is syntactically written as an o
 The build.json allows the application to be built out into modules. This is a simple application so it will only have 1 application module `app` in which all of the minified and concatenated JavaScript will be placed. This is the only file RequireJS will utilize when the application loads (i.e. no more Ajax calls needed).
 
 ### Within tools/r.js
-The build tool run via command line `node r.js -o build.json`. Make sure to run this command from within the `tools` folder.
+The build tool run via command line `node r.js -o build.js`. Make sure to run this command from within the `tools` folder.
 
 ## Instructions to run plain RequireJS application
 1. Install [NodeJS](https://nodejs.org/)
