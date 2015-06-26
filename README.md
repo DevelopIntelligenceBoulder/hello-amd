@@ -50,6 +50,7 @@ The build tool run via command line `node r.js -o build.js`. Make sure to run th
     * Packages needed for this application will be installed (i.e. jQuery & Express)
     * The Node/Express Web Server will start
 3. Go to `http://localhost:8080/build/` in your web browser
+4. Try out this code in this [Plunker](http://plnkr.co/edit/6SXpXY?p=preview)
 
 ##Where to go from here?
 [DevelopIntelligence](http://www.developintelligence.com/) offers a variety of [classes on JavaScript](http://www.developintelligence.com/catalog/web-development-training/core-javascript). Check out the [Introduction to JavaScript](http://www.developintelligence.com/catalog/web-development-training/core-javascript/introduction-to-javascript), the [Effective JavaScript](http://www.developintelligence.com/catalog/web-development-training/core-javascript/effective-javascript) or the [Advanced JavaScript](http://www.developintelligence.com/catalog/web-development-training/core-javascript/advanced-javascript) to get your team up to speed.
